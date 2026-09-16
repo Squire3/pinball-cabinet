@@ -7,6 +7,41 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Gcode",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-15",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "pinball-cabinet",
+          "currentEquation": "pinball-cabinet"
+        }
+      ],
+      "partName": "pinball-cabinet",
+      "sortDirection": "Left"
+    },
+    {
       "atomType": "Output",
       "x": 1,
       "y": 0.5,
@@ -17,9 +52,225 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Import",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-22",
+      "fileName": null,
+      "name": "Import",
+      "type": null,
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Gcode",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-24",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "pinball-cabinet",
+          "currentEquation": "pinball-cabinet"
+        }
+      ],
+      "partName": "pinball-cabinet",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Gcode",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-31",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "pinball-cabinet",
+          "currentEquation": "pinball-cabinet"
+        }
+      ],
+      "partName": "pinball-cabinet",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Gcode",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-38",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "pinball-cabinet",
+          "currentEquation": "pinball-cabinet"
+        }
+      ],
+      "partName": "pinball-cabinet",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Import",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-45",
+      "fileName": null,
+      "name": "Import",
+      "type": null,
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Import",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-47",
+      "fileName": null,
+      "name": "Import",
+      "type": null,
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Import",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-49",
+      "fileName": null,
+      "name": "Import",
+      "type": null,
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Import",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-6",
+      "fileName": null,
+      "name": "Import",
+      "type": null,
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Gcode",
+      "x": null,
+      "y": null,
+      "uniqueID": "id-8",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "pinball-cabinet",
+          "currentEquation": "pinball-cabinet"
+        }
+      ],
+      "partName": "pinball-cabinet",
+      "sortDirection": "Left"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-8"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-15"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-24"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-31"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-38"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
